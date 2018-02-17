@@ -1,0 +1,9 @@
+az aks create -n myawesomeaks -g AKS
+
+az aks browse -n myawesomeaks -g AKS
+
+az aks get-credentials -n myawesomeaks -g AKS
+
+az aks scale -n myawesomeaks -g AKS -c 4
+
+az aks upgrade -n myawesomeaks -g AKS -k 1.8.2

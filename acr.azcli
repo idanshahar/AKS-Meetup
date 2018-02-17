@@ -1,0 +1,5 @@
+az acr create -g AKS -n startHubACR --sku Premium
+
+az acr login --name startHubACR
+
+
